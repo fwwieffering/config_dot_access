@@ -1,0 +1,12 @@
+dns_servers:
+- owner: google
+  ip_address: 8.8.8.8
+- owner: google
+  ip_address: 4.4.4.4
+
+foo: bar
+
+lorem:
+  ipsum:
+    dolor:
+      sit: amet
