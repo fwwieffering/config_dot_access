@@ -1,7 +1,7 @@
 # config_dot_access
 Simple template for a yaml-based ruby config module
 
-Config values can be accessed via dot or bracket notation. 
+Config values can be accessed via dot or bracket notation. Raises `ConfigError` exception if an item is not found
 
 e.g. config file `config.yaml`
 ```yaml
@@ -30,4 +30,7 @@ Config.mister
 
 Config.things[0].name
 # output: 'thing1'
+
+Config.owkefokwfeok
+# Raises ConfigError "unknown configuration option ..."
 ```
